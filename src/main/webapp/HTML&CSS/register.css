@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:#fff7f2;
+
+}
+
+.container{
+
+    min-height:100vh;
+
+    display:flex;
+
+}
+
+.left{
+
+    width:40%;
+
+    background:linear-gradient(135deg,#ff6b35,#ff914d);
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
+    padding:50px;
+
+}
+
+.left h1{
+
+    font-size:48px;
+
+    margin-bottom:20px;
+
+}
+
+.left p{
+
+    font-size:18px;
+
+    text-align:center;
+
+    line-height:1.8;
+
+}
+
+.right{
+
+    width:60%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px;
+
+}
+
+form{
+
+    width:100%;
+
+    max-width:700px;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+}
+
+form h2{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+    color:#222;
+
+}
+
+.row{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.input-box{
+
+    flex:1;
+
+    margin-bottom:20px;
+
+}
+
+.input-box label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    color:#444;
+
+    font-weight:500;
+
+}
+
+.input-box input,
+.input-box textarea{
+
+    width:100%;
+
+    padding:14px;
+
+    border:2px solid #e4e4e4;
+
+    border-radius:12px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+.input-box textarea{
+
+    resize:none;
+
+    height:100px;
+
+}
+
+.input-box input:focus,
+.input-box textarea:focus{
+
+    border-color:#ff6b35;
+
+    box-shadow:0 0 10px rgba(255,107,53,.25);
+
+}
+
+button{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#ff6b35;
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#e75b28;
+
+    transform:translateY(-2px);
+
+}
+
+.login-link{
+
+    text-align:center;
+
+    margin-top:20px;
+
+}
+
+.login-link a{
+
+    color:#ff6b35;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+.login-link a:hover{
+
+    text-decoration:underline;
+
+}
+
+@media(max-width:900px){
+
+    .container{
+
+        flex-direction:column;
+
+    }
+
+    .left,
+    .right{
+
+        width:100%;
+
+    }
+
+    .row{
+
+        flex-direction:column;
+
+        gap:0;
+
+    }
+
+}

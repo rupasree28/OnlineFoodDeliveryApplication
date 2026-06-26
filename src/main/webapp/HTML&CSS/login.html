@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Niru Foods | Login</title>
+
+    <link rel="stylesheet" href="css/login.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="background">
+
+    <div class="login-card">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-utensils"></i>
+
+            <h1>Niru Foods</h1>
+
+            <p>Delicious food delivered fast.</p>
+
+        </div>
+
+
+        <form action="callingLoginServlet" method="post">
+
+            <div class="input-box">
+
+                <label>Email</label>
+
+                <div class="input-field">
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <input
+                            type="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required>
+                </div>
+
+            </div>
+
+
+            <div class="input-box">
+
+                <label>Password</label>
+
+                <div class="input-field">
+
+                    <i class="fa-solid fa-lock"></i>
+
+                    <input
+                            type="password"
+                            name="password"
+                            placeholder="Enter your password"
+                            required>
+
+                </div>
+
+            </div>
+
+
+            <div class="options">
+
+                <label>
+
+                    <input type="checkbox">
+
+                    Remember Me
+
+                </label>
+
+                <a href="#">Forgot Password?</a>
+
+            </div>
+
+
+            <button class="login-btn">
+
+                Login
+
+            </button>
+
+
+            <div class="divider">
+
+                <span>OR</span>
+
+            </div>
+
+
+            <button type="button" class="google-btn">
+
+                <i class="fa-brands fa-google"></i>
+
+                Continue with Google
+
+            </button>
+
+
+            <div class="register">
+
+                Don't have an account?
+
+                <a href="register.jsp">Register</a>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>

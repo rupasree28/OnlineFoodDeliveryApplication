@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Niru Foods | Register</title>
+
+    <link rel="stylesheet" href="css/register.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="left">
+
+        <h1>Welcome 🍔</h1>
+
+        <p>Create your account and start ordering delicious food.</p>
+
+    </div>
+
+    <div class="right">
+
+        <form action="RegisterServlet" method="post">
+
+            <h2>Create Account</h2>
+
+            <div class="row">
+
+                <div class="input-box">
+
+                    <label>Full Name</label>
+
+                    <input type="text" name="name" required>
+
+                </div>
+
+                <div class="input-box">
+
+                    <label>Username</label>
+
+                    <input type="text" name="username" required>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="input-box">
+
+                    <label>Email</label>
+
+                    <input type="email" name="email" required>
+
+                </div>
+
+                <div class="input-box">
+
+                    <label>Phone</label>
+
+                    <input type="text" name="phone" required>
+
+                </div>
+
+            </div>
+
+            <div class="input-box">
+
+                <label>Address</label>
+
+                <textarea name="address"></textarea>
+
+            </div>
+
+            <div class="row">
+
+                <div class="input-box">
+
+                    <label>Password</label>
+
+                    <input type="password" name="password" required>
+
+                </div>
+
+                <div class="input-box">
+
+                    <label>Confirm Password</label>
+
+                    <input type="password" name="confirmPassword" required>
+
+                </div>
+
+            </div>
+
+            <button>Create Account</button>
+
+            <p class="login-link">
+
+                Already have an account?
+
+                <a href="login.jsp">Login</a>
+
+            </p>
+
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

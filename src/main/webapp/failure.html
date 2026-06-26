@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Failure</title>
+
+<style>
+
+body{
+	margin:0;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:linear-gradient(135deg,#ff4d6d,#ff758f,#ffb3c1);
+	font-family:sans-serif;
+}
+
+.container{
+
+	width:420px;
+	padding:40px;
+	background:white;
+	border-radius:25px;
+	text-align:center;
+	box-shadow:0 0 40px red;
+}
+
+.icon{
+
+	font-size:90px;
+	color:red;
+}
+
+h1{
+
+	color:red;
+	font-size:42px;
+}
+
+h2{
+
+	color:#6a0572;
+}
+
+p{
+
+	font-size:18px;
+	color:#555;
+}
+
+button{
+
+	padding:14px 30px;
+	border:none;
+	border-radius:50px;
+	background:red;
+	color:white;
+	font-size:18px;
+	cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="icon">
+✖
+</div>
+
+<h1>Login Failed</h1>
+
+<h2>Invalid Credentials</h2>
+
+<p>
+Wrong Email or Password
+</p>
+
+<button onclick="history.back()">
+Try Again
+</button>
+
+</div>
+
+</body>
+</html>
